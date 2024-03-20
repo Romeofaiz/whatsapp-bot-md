@@ -1,4 +1,4 @@
-const bot = require('../lib/events')
+IIIconst bot = require('../lib/events')
 const { addSpace, textToStylist, PREFIX, getUptime, PLUGINS, getRam } = require('../lib/')
 const { VERSION } = require('../config')
 bot.addCommand(
@@ -16,7 +16,7 @@ bot.addCommand(
     })
     const date = new Date()
     let CMD_HELP = `╭────────────────╮
-						ʟᴇᴠᴀɴᴛᴇʀ
+						𝑅𝚯𝚳𝚵𝐊-𝚾𝐃-𝚩𝚯𝚻
 ╰────────────────╯
 
 ╭────────────────
@@ -86,7 +86,7 @@ bot.addCommand(
       }
     })
     const date = new Date()
-    let msg = `\`\`\`╭═══ LEVANTER ═══⊷
+    let msg = `\`\`\`╭═══ 𝑅𝚯𝚳𝚵𝐊-𝚾𝐃-𝚩𝚯𝚻 ═══⊷
 ┃❃╭──────────────
 ┃❃│ Prefix : ${PREFIX}
 ┃❃│ User : ${message.pushName}
